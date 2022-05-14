@@ -22,7 +22,8 @@
 
 
     <section>
-        <form name="javascriptQuiz" onsubmit="return studentScore()">
+        <!--Form containing the questions-->
+        <form class="quizForm" name="javascriptQuiz" onsubmit="return studentScore()">
             <!--Question 1-->
             <h3>1. What is the short-form of HyperText markup Language?</h3>
             <input type="radio" name="q1" value="a" id="q1a">a. &lt;HTML&gt;<br>
@@ -42,8 +43,16 @@
             <h3>3. Is C++ a low-level Language?</h3>
             <input type="radio" name="q3" value="a" id="q3a">a. &lt;YES&gt;<br>
             <input type="radio" name="q3" value="b" id="q3b">b. &lt;NO&gt;<br>
+
+            <br>
+            <button class="button" type="submit">Submit</button>
         </form>
     </section>
+
+    <footer>
+        <h3>Prepared by Brain-Trivia.</h3>
+        <p>Copyright &copy; 2015</p>
+    </footer>
 
 
 </body>

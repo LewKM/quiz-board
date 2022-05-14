@@ -1,0 +1,42 @@
+html,
+body,
+footer {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.menu {
+    position: relative;
+    left: 1000px;
+    bottom: 25px;
+    font-size: 25px;
+    opacity: 90%;
+}
+
+.nav {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: antiquewhite;
+}
+
+header {
+    background-color: rgba(201, 236, 207, 0.428);
+    height: 100px;
+}
+
+#fullbody {
+    background-image: url(../images/wallpaperbetter.com_1920x1080\ \(5\).jpg);
+    background-size: cover;
+    height: 800px;
+    width: auto;
+    position: relative;
+    opacity: 90%;
+}
+
+.quiz {
+    color: antiquewhite;
+    position: relative;
+    left: 20px;
+    top: 30px;
+    font-size: 20px;
+}

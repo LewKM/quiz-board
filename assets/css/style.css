@@ -8,7 +8,6 @@ footer {
 .menu {
     position: relative;
     left: 1000px;
-    color: rgb(0, 0, 0);
     top: 40px;
     font-size: 25px;
     opacity: 90%;
@@ -17,11 +16,11 @@ footer {
 .nav {
     padding-left: 30px;
     padding-right: 30px;
-    color: rgb(14, 15, 11);
+    color: antiquewhite;
 }
 
 header {
-    background-color: rgba(14, 255, 58, 0.428);
+    background-color: rgba(201, 236, 207, 0.428);
     height: 100px;
 }
 
@@ -32,4 +31,66 @@ header {
     width: auto;
     position: relative;
     opacity: 90%;
+}
+
+.welcome {
+    position: relative;
+    color: antiquewhite;
+    top: 10px;
+    font-size: 30px;
+    padding-left: 20px;
+    width: 600px;
+    height: auto;
+}
+
+.welcome h1 {
+    color: aquamarine;
+}
+
+.description {
+    color: antiquewhite;
+    font-size: 25px;
+    width: 600px;
+    position: relative;
+    top: 100px;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 20px;
+    color: aquamarine;
+    padding: 20px 50px;
+    border: 3px solid aquamarine;
+    position: relative;
+    top: 200px;
+    left: 30px;
+}
+
+.button::before,
+.button::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: inherit;
+    transition: all -5s;
+    border-radius: 8%;
+}
+
+.button::before {
+    top: -15px;
+    left: -15px;
+    border-width: 3px 0 0 3px;
+}
+
+.button::after {
+    bottom: -15px;
+    right: -15px;
+    border-width: 0 3px 3px 0;
+}
+
+.button:hover::before,
+.button:hover::after {
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
 }

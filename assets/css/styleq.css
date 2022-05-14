@@ -47,6 +47,7 @@ header {
     color: antiquewhite;
     font-size: 20px;
     height: 600px;
+    padding-left: 30px;
 }
 
 footer {
@@ -88,4 +89,15 @@ footer {
 .qf {
     position: relative;
     left: 30px;
+}
+
+#results h3 {
+    background: rgba(201, 236, 207, 0.428);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#results span {
+    color: antiquewhite;
+    font-weight: bold;
 }

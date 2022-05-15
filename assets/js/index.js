@@ -25,3 +25,7 @@ function studentScore() {
     results.innerHTML = '<h3>You Scored  <span>' + score + '</span> out of <span>' + total + '</span></h3>';
     return false;
 }
+
+function reset() {
+    document.getElementById("javascriptQuiz").reset();
+}
